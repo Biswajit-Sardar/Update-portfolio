@@ -939,6 +939,7 @@ nav{
     .skill{
         margin-left: 5%;
         margin-right: 5%;
+        gap: 0.2rem;
     }
 }
 
