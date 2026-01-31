@@ -525,12 +525,60 @@ nav{
 
 /*service section*/
 .scard{
-    width: 30%;
+    width: 18rem;
     height: 20rem;
     background-color: var(--primary);
     color: var(--normal);
     border-radius: 1rem;
+    position: relative;
 }
+.stack{
+    display: flex;
+    
+}
+
+.scard::before{
+    content: "";
+    position: absolute;
+    inset: -0.125rem;        /* -2px */
+    border-radius: 1.0625rem; /* 17px */
+    background: linear-gradient(
+        90deg,
+        #00fff7,
+        #ff00ff,
+        #00fff7
+    );
+    animation: aboutBorderMove 3s linear infinite;
+    z-index: -1;
+}
+
+/* inside cover so border stays inside radius */
+.scard::after{
+    content: "";
+    position: absolute;
+    inset: 0.1875rem;        /* 3px */
+    border-radius: 0.75rem;  /* 12px */
+    background:var(--primary);
+    z-index: -1;
+}
+
+@keyframes aboutBorderMove{
+    0%{ filter: hue-rotate(0deg); }
+    100%{ filter: hue-rotate(360deg); }
+}
+.scard{
+    padding: 1%;
+    padding-top: 2%;
+
+}
+.scard h3{
+
+}
+
+.scard :nth-child(4){
+    transform: translate(0, 0);
+}
+
 
 
 /*
