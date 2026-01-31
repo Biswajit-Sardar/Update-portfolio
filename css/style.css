@@ -826,7 +826,7 @@ nav{
     font-size: 32px;
     padding: 10px;
     margin: 10px;
-    color: white;
+    color:#650081;
 }.probox{
     width: 480px;
     height: auto;
@@ -1180,6 +1180,8 @@ nav{
     .projects{
         grid-template-columns: repeat(1, 1fr);
     }
+
+
 }
 
 
