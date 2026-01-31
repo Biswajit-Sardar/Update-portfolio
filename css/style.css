@@ -589,7 +589,13 @@ nav{
     border-radius: 1rem;
 
 }
+.scard button:hover{
+    border: 0.2rem solid var(--normal);
+    border-radius: 1rem;
+    background-color: var(--primary);
+    color: var(--normal);
 
+}
 .scard{
     padding: 1%;
     padding-top: 2%; 
@@ -640,43 +646,6 @@ nav{
     color: var(--normal);
 }
 
-
-
-
-
-/*
-.scard:hover{
-    
-}*/
-/*
-.cards{
-    position: relative;
-    height: 300px;
-    margin-top: 90px;
-}
-
-/* stack wrapper *//*
-.stack{
-    position: relative;
-    width: 300px;
-    height: 220px;
-    margin: auto;
-    
-}
-
-
-.scard{
-    position: absolute;
-    width: 260px;
-    height: 300px;
-    background: #6a1b9a;
-    color: white;
-    border-radius: 18px;
-    padding: 16px;
-    transition: 0.4s ease;
-    cursor: pointer;
-}
-*/
 
 
 
@@ -851,6 +820,71 @@ nav{
     .about_box{
         width: 94%;
         margin-top: 2rem;
+    }
+    .stack{
+        flex-direction: column;
+        justify-content: center;
+
+        
+    }
+   
+        
+    .scard:nth-child(4){
+        
+        z-index: 7;
+        transform: translate(0, 0);
+        padding-top: 2rem;
+        margin-top: 0.3rem ;
+        
+    }
+    .scard:nth-child(3){
+        z-index: 6;
+        padding-top: 2rem;
+        margin-top: 0.3rem ;
+    }
+    .scard:nth-child(5){
+        z-index: 6;
+        margin-left: 5%;
+        margin-top: 1rem;
+        padding-top: 2rem;
+        margin-top: 0.3rem ;
+    }
+
+    .scard:nth-child(2){
+        z-index: 5;
+        margin-right: -2rem;
+        margin-top: 2rem;
+        padding-top: 2rem;
+        margin-top: 0.3rem ;
+    }
+    .scard:nth-child(6){
+        z-index: 5;
+        margin-left: 5%;
+        margin-top: 2rem;
+        padding-top: 2rem;
+        margin-top: 0.3rem ;
+    }
+
+    .scard:nth-child(1){
+        z-index: 4;
+        margin-right: 5%;
+        margin-top: 3rem;
+        padding-top: 2rem;
+        margin-top: 0.3rem ;
+        
+    }
+    .scard:nth-child(7){
+        z-index: 4;
+        margin-left: 5%;
+        margin-top: 3rem;
+        padding-top: 2rem;
+        margin-top: 0.3rem ;
+    }
+     .scard{
+        width: 90%;
+        margin: 0.3rem 5%;
+        padding: 1rem;
+       
     }
 }
 
