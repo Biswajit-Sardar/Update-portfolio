@@ -764,13 +764,14 @@ nav{
     .box3 :nth-child(1){
         font-size: 1.2rem;
     }
-    .box31 :nth-child(1){
-        font-size: 2rem;
-        margin-left: 0.5rem;
+   
+    .box3 .box31 :nth-child(1){
+        font-size: 1.8rem;
+        margin-left: 0;
     }
-    .box31 :nth-child(2){
-        font-size: 2rem;
-        margin-left: -0.9rem;
+    .box3 .box31 :nth-child(2){
+        font-size: 1.8rem;
+        margin-left: 0rem;
     }
 
 
